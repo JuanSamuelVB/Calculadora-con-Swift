@@ -74,6 +74,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		425A2F911DE6721D009206FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42612E381DE66AA700544130 /* Assets.xcassets */,
+				42612E3A1DE66AA700544130 /* LaunchScreen.storyboard */,
+				42612E3D1DE66AA700544130 /* Info.plist */,
+				42612E311DE66AA700544130 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		42612E251DE66AA700544130 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +108,9 @@
 		42612E301DE66AA700544130 /* Calculadora */ = {
 			isa = PBXGroup;
 			children = (
-				42612E311DE66AA700544130 /* AppDelegate.swift */,
+				425A2F911DE6721D009206FD /* Supporting Files */,
 				42612E331DE66AA700544130 /* ViewController.swift */,
 				42612E351DE66AA700544130 /* Main.storyboard */,
-				42612E381DE66AA700544130 /* Assets.xcassets */,
-				42612E3A1DE66AA700544130 /* LaunchScreen.storyboard */,
-				42612E3D1DE66AA700544130 /* Info.plist */,
 			);
 			path = Calculadora;
 			sourceTree = "<group>";
@@ -505,6 +513,7 @@
 				42612E581DE66AA700544130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42612E591DE66AA700544130 /* Build configuration list for PBXNativeTarget "CalculadoraTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				42612E5B1DE66AA700544130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42612E5C1DE66AA700544130 /* Build configuration list for PBXNativeTarget "CalculadoraUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				42612E5E1DE66AA700544130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
